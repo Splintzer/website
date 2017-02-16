@@ -1,0 +1,94 @@
+html {
+  width: 100%;
+  height: 100%
+}
+body {
+  margin: 0
+}
+
+.header {
+  width: 100%;
+  height: auto;
+  padding: 8vmin 0 8vmin 0;
+}
+.logo {
+  width: auto;
+  height: 26vmin;
+}
+.socialButton {
+  border-radius: 50%;
+  padding: 2vmin;
+  height: 8vmin;
+  width: 8vmin;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto 0 auto 0;
+}
+.socialButton IMG {
+  width: 6vmin
+}
+.fbBlue {
+  background-color: #3b5998
+}
+.yelpRed {
+  background-color: #d32323
+}
+.fullContainer {
+  width: 100%;
+  height: 40vmin;
+  overflow: hidden;
+}
+.fullImage {
+  width: 100%;
+  height: auto
+}
+
+.text {
+  font-family: sans-serif;
+  margin: 0 auto 0 auto;
+  position: relative;
+  top: 4vmin;
+  font-size: 3vmin
+}
+
+.info{
+	border-left: thin solid; 
+	border-right: thin solid; 
+	padding-left: 15px; 
+	padding-right: 15px; 
+	padding-bottom: 50px; 
+	padding-top: 20px;
+}
+.downArrow {
+  cursor: pointer;
+  background-color: grey;
+  border-radius: 3px;
+  height: 3vmin;
+  display: flex;
+  align-items: center;
+  position: relative;
+  left: 2vmin
+}
+
+
+.flexRow {
+  display: flex;
+  flex-direction: row;
+}
+.flexColumn {
+  display: flex;
+  flex-direction: column;
+}
+.justifyCenter {
+  justify-content: center;
+}
+.alignCenter {
+  align-items: center;
+}
+.spaceAround {
+  justify-content: space-around;
+}
+.spaceBetween {
+  justify-content: space-between;
+}
